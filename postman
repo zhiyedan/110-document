@@ -1,0 +1,17 @@
+Get  http://odl:8181/restconf/operational/network-topology:network-topology/
+
+{
+  "network-topology": {
+    "topology": [
+      {
+        "topology-id": "ovsdb:1"
+      },
+      {
+        "topology-id": "flow:1"
+      }
+    ]
+  }
+}
+
+
+
